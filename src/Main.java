@@ -30,6 +30,6 @@ public class Main {
         }
 
         float avg = sum / list.size();
-        System.out.format("avg = %.2f \n", avg);
+        System.out.format("avg = %.3f \n", avg);
     }
 }

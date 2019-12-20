@@ -14,22 +14,25 @@ public class Main {
 
         List<Float> list = new ArrayList<>();
 
-        float num;
+        float grade;
 
         while (true) {
 
             System.out.format("nomreye dars [%d] :", index);
 
-            if ((num = scanner.nextFloat()) != -1) {
-                list.add(num);
-                sum += num;
+            if ((grade = scanner.nextFloat()) != -1) {
+                list.add(grade);
+                sum += grade;
                 index++;
             } else {
                 break;
             }
         }
 
-        float avg = sum / list.size();
-        System.out.format("avg = %.3f \n", avg);
+        if (list.size() != 0) {
+            float avg = sum / list.size();
+            System.out.format("avg = %.3f \n", avg);
+        } else
+            System.out.format("list is empty !");
     }
 }

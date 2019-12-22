@@ -12,9 +12,10 @@ public class Main {
 
         int index = 1;
 
+        float grade;
+		
         List<Float> list = new ArrayList<>();
 
-        float grade;
 
         while (true) {
 

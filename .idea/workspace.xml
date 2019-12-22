@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="876907bf-b084-4599-8f05-b465e2400e24" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled3/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/M.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTTP Request" />
       </list>
     </option>
   </component>
@@ -50,9 +51,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.M">
+    <configuration name="M" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="M" />
+      <module name="untitled3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="untitled3" />
@@ -60,17 +68,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Map" />
-      <module name="untitled3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.M" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Map" />
       </list>
     </recent_temporary>
   </component>
@@ -96,7 +97,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576860128930</updated>
-      <workItem from="1576860136383" duration="4526000" />
+      <workItem from="1576860136383" duration="4892000" />
+      <workItem from="1576871392974" duration="465000" />
+      <workItem from="1576872011836" duration="4653000" />
+      <workItem from="1576937168149" duration="1194000" />
+      <workItem from="1576963134353" duration="3070000" />
+      <workItem from="1576968814570" duration="2224000" />
+      <workItem from="1577028737527" duration="3961000" />
+      <workItem from="1577042761865" duration="1125000" />
     </task>
     <task id="LOCAL-00001" summary="change 3">
       <created>1576869672688</created>
@@ -119,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576870486281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add check grade list">
+      <created>1576870941775</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576870941775</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +155,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -149,44 +166,61 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="change 3" />
     <MESSAGE value="add Map class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Map class" />
+    <MESSAGE value="add check grade list" />
+    <option name="LAST_COMMIT_MESSAGE" value="add check grade list" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1576869670849">
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser" timestamp="1576879497038">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1576869670849" />
+    <state x="488" y="71" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1576879497038" />
+    <state x="397" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1576877897923">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="397" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.738@0.0.1366.738" timestamp="1576877897923" />
+    <state x="306" y="0" key="CommitChangelistDialog2" timestamp="1576870940166">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1576870940166" />
     <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1576866146701">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1576866146701" />
-    <state width="1322" height="161" key="GridCell.Tab.0.bottom" timestamp="1576870876981">
+    <state width="1322" height="161" key="GridCell.Tab.0.bottom" timestamp="1577044084181">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1576870876981" />
-    <state width="1322" height="161" key="GridCell.Tab.0.center" timestamp="1576870876981">
+    <state width="1322" height="161" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1577044084181" />
+    <state width="1322" height="161" key="GridCell.Tab.0.center" timestamp="1577044084180">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1576870876981" />
-    <state width="1322" height="161" key="GridCell.Tab.0.left" timestamp="1576870876981">
+    <state width="1322" height="161" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1577044084180" />
+    <state width="1322" height="161" key="GridCell.Tab.0.left" timestamp="1577044084180">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1576870876981" />
-    <state width="1322" height="161" key="GridCell.Tab.0.right" timestamp="1576870876981">
+    <state width="1322" height="161" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1577044084180" />
+    <state width="1322" height="161" key="GridCell.Tab.0.right" timestamp="1577044084181">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="161" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1576870876981" />
-    <state x="184" y="0" key="SettingsEditor" timestamp="1576870720283">
+    <state width="1322" height="161" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1577044084181" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1576871875240">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1576870720283" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1576869782119">
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1576871875240" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1576870973270">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1576869782119" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1576870973270" />
+    <state width="600" height="285" key="javadoc.popup" timestamp="1576966510436">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="600" height="285" key="javadoc.popup/0.0.1366.738@0.0.1366.738" timestamp="1576966510436" />
     <state x="65" y="0" key="new project wizard" timestamp="1576864411555">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.738@0.0.1366.738" timestamp="1576864411555" />
+    <state x="339" y="159" key="run.anything.popup" timestamp="1576965488971">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="339" y="159" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1576965488971" />
   </component>
 </project>

@@ -1,14 +1,12 @@
-import java.util.HashMap;
-import java.util.Map;
 import java.util.Scanner;
+import java.util.HashMap;
 
-public class M {
-
+public class map {
     public static float sum;
 
     public static void main(String[] arg) {
 
-        Map<String, Float> hashMap = new HashMap<>();
+        java.util.Map<String, Float> hashMap = new HashMap<>();
 
         Scanner scanner = new Scanner(System.in);
         int index = 1;
@@ -20,7 +18,7 @@ public class M {
 
             //get key :
             System.out.format("enter lesson name [%d} : ", index);
-            name = scanner.next().toString();
+            name = scanner.next();
 
             //get value :
             System.out.format("enter grade of lesson [%d} : ", index);

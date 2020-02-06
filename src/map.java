@@ -1,3 +1,5 @@
+import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
 import java.util.HashMap;
 
@@ -6,16 +8,13 @@ public class map {
 
     public static void main(String[] arg) {
 
-        java.util.Map<String, Float> hashMap = new HashMap<>();
+        Map<String, Float> hashMap = new HashMap<>();
 
         Scanner scanner = new Scanner(System.in);
         int index = 1;
-
+        String name;
+        float grade;
         while (true) {
-
-            String name;
-            float grade;
-
             //get key :
             System.out.format("enter lesson name [%d} : ", index);
             name = scanner.next();
